@@ -1,0 +1,55 @@
+:root{
+    --weight-light:200;
+    --weight-regular:400;
+    --weight-bold:600;
+    
+    --color-White: hsl(0, 0%, 100%);
+    --color-Light-gray: hsl(212, 45%, 89%);  
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-blue: hsl(218, 44%, 22%)
+}
+body{
+    background-color: var(--color-Light-gray);
+
+}.container{
+   
+}
+
+.content{
+    position: relative;
+    top: 70px;
+    width: 265px;
+    height: 420px;
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px;
+   
+    color: hsl(0, 0%, 100%);
+    background-color: var(--color-White);
+    
+}img{
+    position: relative;
+    top: 15px;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    top: 23px;
+    font-weight: 700;
+}p{
+    text-align: center;
+    color: var(--color-Grayish-blue);
+    position: relative;
+    top: 10px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400px;
+}
